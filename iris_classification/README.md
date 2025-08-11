@@ -1,9 +1,9 @@
 # Iris Flower Classification
 
-## 📌 Objective
+##  Objective
 Classify iris flowers into three species — Setosa, Versicolor, Virginica — based on their petal and sepal dimensions.
 
-## 📊 Dataset
+##  Dataset
 - **Source**: Built-in Scikit-learn Iris Dataset
 - Features:
   - Sepal Length
@@ -11,16 +11,16 @@ Classify iris flowers into three species — Setosa, Versicolor, Virginica — b
   - Petal Length
   - Petal Width
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 - Decision Tree Classifier
 - Logistic Regression
 
-## 📈 Evaluation
+##  Evaluation
 - Accuracy Score
 - Confusion Matrix
 - Classification Report
 
-## ▶️ How to Run
+## ▶ How to Run
 ```bash
 pip install -r requirements.txt
 python iris_classification.py
