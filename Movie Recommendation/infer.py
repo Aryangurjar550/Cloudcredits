@@ -16,7 +16,7 @@ def main():
     algo = bundle["algo"]
     trainset = bundle["trainset"]
 
-    # Build anti-testset and filter to this user
+  
     anti = trainset.build_anti_testset(fill=None)
     user_raw_id = str(args.user_id)
     preds = [p for p in algo.test(anti) if p.uid == user_raw_id]
